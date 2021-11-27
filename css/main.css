@@ -6189,3 +6189,41 @@ textarea.form-control {
   width: 100vw;
   height: 100vh;
 }
+body.popupShow {
+  overflow: hidden;
+}
+.popupProtocolBackground {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;
+}
+body.popupShow .popupProtocolBackground {
+  display: block;
+}
+.popupProtocol {
+  width: 500px;
+  margin: 20% auto 0px auto;
+  box-shadow: 1px 2px 3px #000000;
+  padding: 20px;
+  background-color: #ffffff;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.buttonWrapper {
+  text-align: center;
+}
+.buttonWrapper button {
+  padding: 10px 20px;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+@media screen and (max-width: 640px) {
+  .popupProtocol {
+    width: 90%;
+  }
+}

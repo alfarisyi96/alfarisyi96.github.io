@@ -21,7 +21,34 @@
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body
+    class="popupShow"
+    data-spy="scroll"
+    data-target=".site-navbar-target"
+    data-offset="300"
+  >
+    <div class="popupProtocolBackground">
+      <div class="popupProtocol">
+        <p>
+          Sehubungan dengan adanya wabah Covid-19, mohon untuk selalu mengikuti
+          himbauan pemerintah sebagai berikut:
+        </p>
+        <ol>
+          <li>Selalu menggunakan masker dan membawa hand sanitizer</li>
+          <li>Mematuhi protokol kesehatan dan menjaga jarak</li>
+          <li>
+            Jika sedang merasa sakit, dimohon untuk tetap beristirahat di rumah
+          </li>
+        </ol>
+        <p>
+          Semoga wabah Covid-19 segera berlalu dan kita semua selalu diberikan
+          kesehatan. Terima kasih.
+        </p>
+        <div class="buttonWrapper">
+          <button id="btnClosePopup">OK</button>
+        </div>
+      </div>
+    </div>
     <section
       id="home"
       class="video-hero js-fullheight"
@@ -33,7 +60,13 @@
       data-stellar-background-ratio="0.5"
     >
       <div class="overlay">
-        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" id="myVideo">
+        <video
+          loop="loop"
+          playsinline
+          oncontextmenu="return false;"
+          preload="auto"
+          id="myVideo"
+        >
           <source src="videos/cover.mp4" type="video/mp4" />
         </video>
       </div>
@@ -225,13 +258,13 @@
       <div class="container-fluid px-md-4">
         <div class="row justify-content-center pb-5">
           <div class="col-md-12 text-center heading-section ftco-animate">
-            <h2 class="mb-3">Gallery</h2>
+            <h2 class="mb-3">Galeri</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-1.jpg"
+              href="images/image1.jpeg"
               class="
                 gallery
                 img
@@ -240,7 +273,7 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-1.jpg)"
+              style="background-image: url(images/image1.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -251,7 +284,7 @@
           </div>
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-2.jpg"
+              href="images/image2.jpeg"
               class="
                 gallery
                 img
@@ -260,7 +293,7 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-2.jpg)"
+              style="background-image: url(images/image2.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -271,7 +304,7 @@
           </div>
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-3.jpg"
+              href="images/image3.jpeg"
               class="
                 gallery
                 img
@@ -280,7 +313,7 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-3.jpg)"
+              style="background-image: url(images/image3.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -291,7 +324,7 @@
           </div>
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-4.jpg"
+              href="images/image4.jpeg"
               class="
                 gallery
                 img
@@ -300,7 +333,7 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-4.jpg)"
+              style="background-image: url(images/image4.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -311,7 +344,7 @@
           </div>
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-5.jpg"
+              href="images/image5.jpeg"
               class="
                 gallery
                 img
@@ -320,7 +353,7 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-5.jpg)"
+              style="background-image: url(images/image5.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -331,7 +364,7 @@
           </div>
           <div class="col-md-3 ftco-animate">
             <a
-              href="images/gallery-6.jpg"
+              href="images/image6.jpeg"
               class="
                 gallery
                 img
@@ -340,7 +373,87 @@
                 align-items-center
                 justify-content-center
               "
-              style="background-image: url(images/gallery-6.jpg)"
+              style="background-image: url(images/image6.jpeg)"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="ion-ios-image"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <a
+              href="images/image7.jpeg"
+              class="
+                gallery
+                img
+                image-popup
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              style="background-image: url(images/image7.jpeg)"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="ion-ios-image"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <a
+              href="images/image8.jpeg"
+              class="
+                gallery
+                img
+                image-popup
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              style="background-image: url(images/image8.jpeg)"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="ion-ios-image"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <a
+              href="images/image9.jpeg"
+              class="
+                gallery
+                img
+                image-popup
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              style="background-image: url(images/image9.jpeg)"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="ion-ios-image"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 ftco-animate">
+            <a
+              href="images/image10.jpeg"
+              class="
+                gallery
+                img
+                image-popup
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              style="background-image: url(images/image10.jpeg)"
             >
               <div
                 class="icon d-flex align-items-center justify-content-center"
@@ -375,53 +488,59 @@
         ></circle>
       </svg>
     </div>
-    <script src="js/9241-js-jquery.min.js"></script>
-    <script src="js/4429-js-jquery-migrate-3.0.1.min.js+popper.min.js+bootstrap.min.js.pagespeed.jc.e7GdlxdyGT.js"></script>
-    <script>
-      eval(mod_pagespeed_AGZ1Uo0obY);
-    </script>
-    <script>
-      eval(mod_pagespeed_CUBT0IxMdl);
-    </script>
-    <script>
-      eval(mod_pagespeed_9vY9ewfrO0);
-    </script>
-    <script src="js/1773-js-jquery.easing.1.3.js+jquery.waypoints.min.js+jquery.stellar.min.js+owl.carousel.min.js.pagespeed.jc.0CjdhFfJML.js"></script>
-    <script>
-      eval(mod_pagespeed_5RCnpOWDgi);
-    </script>
-    <script>
-      eval(mod_pagespeed_q_mty_GYbo);
-    </script>
-    <script>
-      eval(mod_pagespeed_j_vgt$UwZw);
-    </script>
-    <script>
-      eval(mod_pagespeed_nKfilSzCQt);
-    </script>
-    <script src="js/8875-js-jquery.magnific-popup.min.js+aos.js+jquery.animateNumber.min.js+jquery.mb.YTPlayer.min.js.pagespeed.jc.1Ws5j0JTEU.js"></script>
-    <script>
-      eval(mod_pagespeed_DyBy7WwK38);
-    </script>
-    <script>
-      eval(mod_pagespeed_B1shB3Vuty);
-    </script>
-    <script>
-      eval(mod_pagespeed_v84GL5Yc40);
-    </script>
-    <script>
-      eval(mod_pagespeed_vr3XXnhoz9);
-    </script>
-    <script src="js/6481-js-scrollax.min.js+google-map.js+main.js.pagespeed.jc.UkjCIGw4ht.js"></script>
-    <script>
-      eval(mod_pagespeed_zF_zpiMA1W);
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
-    <script>
-      eval(mod_pagespeed_j3yZ49o70G);
-    </script>
-    <script>
-      eval(mod_pagespeed_6kXmXxuMUQ);
-    </script>
   </body>
+  <script src="js/9241-js-jquery.min.js"></script>
+  <script>
+    $("#btnClosePopup").click(function () {
+      myVideo.play();
+      $("body").removeClass("popupShow");
+    });
+  </script>
+  <script src="js/4429-js-jquery-migrate-3.0.1.min.js+popper.min.js+bootstrap.min.js.pagespeed.jc.e7GdlxdyGT.js"></script>
+  <script>
+    eval(mod_pagespeed_AGZ1Uo0obY);
+  </script>
+  <script>
+    eval(mod_pagespeed_CUBT0IxMdl);
+  </script>
+  <script>
+    eval(mod_pagespeed_9vY9ewfrO0);
+  </script>
+  <script src="js/1773-js-jquery.easing.1.3.js+jquery.waypoints.min.js+jquery.stellar.min.js+owl.carousel.min.js.pagespeed.jc.0CjdhFfJML.js"></script>
+  <script>
+    eval(mod_pagespeed_5RCnpOWDgi);
+  </script>
+  <script>
+    eval(mod_pagespeed_q_mty_GYbo);
+  </script>
+  <script>
+    eval(mod_pagespeed_j_vgt$UwZw);
+  </script>
+  <script>
+    eval(mod_pagespeed_nKfilSzCQt);
+  </script>
+  <script src="js/8875-js-jquery.magnific-popup.min.js+aos.js+jquery.animateNumber.min.js+jquery.mb.YTPlayer.min.js.pagespeed.jc.1Ws5j0JTEU.js"></script>
+  <script>
+    eval(mod_pagespeed_DyBy7WwK38);
+  </script>
+  <script>
+    eval(mod_pagespeed_B1shB3Vuty);
+  </script>
+  <script>
+    eval(mod_pagespeed_v84GL5Yc40);
+  </script>
+  <script>
+    eval(mod_pagespeed_vr3XXnhoz9);
+  </script>
+  <script src="js/6481-js-scrollax.min.js+google-map.js+main.js.pagespeed.jc.UkjCIGw4ht.js"></script>
+  <script>
+    eval(mod_pagespeed_zF_zpiMA1W);
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+  <script>
+    eval(mod_pagespeed_j3yZ49o70G);
+  </script>
+  <script>
+    eval(mod_pagespeed_6kXmXxuMUQ);
+  </script>
 </html>
